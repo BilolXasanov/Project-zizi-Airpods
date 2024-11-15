@@ -1,0 +1,116 @@
+@import url(../style/fonts.css);
+
+.main {
+    background: #151515;
+}
+
+.content-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-top__text {
+    color: #FFF;
+    font-family: 'MM';
+    font-size: 22px;
+    line-height: 27px;
+    max-width: 528px;
+    width: 100%;
+}
+
+.content-top__img {
+    max-width: 552px;
+    width: 100%;
+}
+
+.content-center__text {
+    color: #FFF;
+    font-family: 'MM';
+    font-size: 22px;
+    line-height: 27px;
+    max-width: 540px;
+    width: 100%;
+}
+
+.content-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.content-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 54px;
+}
+
+.content-bottom__text {
+    color: #FFF;
+    font-family: 'MB';
+    font-size: 20px;
+    line-height: 24px;
+    max-width: 333px;
+    width: 100%;
+    position: relative;
+}
+
+.content-bottom__text-left::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 61px;
+    background: #C4C4C4;
+    position: absolute;
+    top: 55px;
+    right: -90px;
+}
+
+.content-bottom__text-right::before {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 61px;
+    background: #C4C4C4;
+    position: absolute;
+    top: 65px;
+    left: -90px;
+
+}
+
+.phone-item {
+    border-radius: 6px;
+    background: #FFF;
+    max-width: 255px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+    margin-top: 75px;
+}
+
+.phone-item__img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.phone-item__price {
+    margin-bottom: 20px;
+}
+
+.phone-item__btn {
+    background: #151515;
+    color: #FFF;
+    font-family: 'MB';
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding: 7px 57px;
+}
+
+.phone {
+    display: flex;
+    justify-content: space-between;
+}
